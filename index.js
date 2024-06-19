@@ -44,6 +44,9 @@ app.get('/',(req,res)=>{
 app.get('/twitter',(req,res)=>{
     res.send('suraj-aithal')
 })
+app.get('/login',(req,res)=>{
+    res.send('<h1>you have to login</h2>')
+})
 app.get('/youtube',(req,res)=>{
     res.send('<h1>code aur chai</h1>')
 })
