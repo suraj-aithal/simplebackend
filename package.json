@@ -1,0 +1,19 @@
+{
+  "name": "firstbackend",
+  "version": "1.0.0",
+  "description": "first backend project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chai",
+    "backend"
+  ],
+  "author": "suraj aithal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
